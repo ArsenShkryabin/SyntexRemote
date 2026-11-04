@@ -1,0 +1,16 @@
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+*.pdb
+*.qm
+*.qrc.cpp
+*_autogen/
+.cache/
+.vscode/
+.idea/
+*.user
+CMakeLists.txt.user

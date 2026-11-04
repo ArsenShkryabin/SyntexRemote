@@ -1,0 +1,33 @@
+#include <windows.h>
+
+1 ICON "/home/dhh/Work/SyntexRemote/source/console/resources/main.ico"
+1 24 "/home/dhh/Work/SyntexRemote/source/win_dist/syntexremote.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     2,6,0,0
+PRODUCTVERSION  2,6,0,0
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       0
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "SyntexHelp"
+            VALUE "FileDescription",  "SyntexRemote Suite for SyntexHelp RMM"
+            VALUE "FileVersion",      "2.6.0.0"
+            VALUE "InternalName",     "syntexremote"
+            VALUE "LegalCopyright",   "© 2026 SyntexHelp Team (based on Aspia GPL-3.0)"
+            VALUE "OriginalFilename", "syntexremote.exe"
+            VALUE "ProductName",      "SyntexRemote"
+            VALUE "ProductVersion",   "2.6.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
